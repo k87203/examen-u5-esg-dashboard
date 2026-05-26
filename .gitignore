@@ -11,3 +11,14 @@ venv/
 Thumbs.db
 .vscode/
 .idea/
+
+# Word lock files
+~$*.docx
+~$*.doc
+
+# Backups locales y scripts de build interno
+*_ORIGINAL.docx
+_inspect_*.py
+_fill_doc.py
+_insert_images.py
+
